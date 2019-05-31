@@ -1,0 +1,27 @@
+First time - new system
+ 
+-Set up environment for new linux system
+
+-- git config --global user.email "ike.lee@intel.com"
+-- git config --global user.name " Ike Lee"
+
+First time new repository - follow instruction on the web repository link
+
+-Create a new directory – mkdir <dir_name>
+-cd <dir_name>
+-git init
+-Copy all files into <dir_name>
+-git add <all files separated with space>
+-git commit -m "description"
+-git remote add origin <repository web link ex: https://github.com/ikelee77/aiedu.git>
+-git push -u origin master
+
+management of existing repository 
+
+-git clone <reposity link ex: https://github.com/ikelee77/aiedu.git>
+-cd <repo name>
+-git pull
+-modify some files or add new files
+-git add < all files changed>
+-git commit -m "description"
+-git push 
